@@ -1,0 +1,21 @@
+body {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #222;
+  color: #eee;
+}
+
+input {
+  background: #333;
+  color: #ccc;
+}
+
+#cursos {
+  display: flex;
+}
+
+.courses {
+  margin: 16px;
+  padding: 8px;
+}
