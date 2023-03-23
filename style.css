@@ -19,3 +19,49 @@ input {
   margin: 16px;
   padding: 8px;
 }
+
+h1 {
+  color: #26a;
+  margin-left: 1rem;
+}
+
+h2 {
+  color: #1a2;
+  margin-left: 1rem;
+  border-top: 2px solid  #292929;
+  padding-top: 1rem;
+}
+
+p {
+  margin-left: 1rem;
+}
+
+div {
+  border-top: 2px solid  #292929;
+}
+
+p, th {
+  color: #8bf;
+}
+
+table {
+  border-spacing: 0;
+  text-align: left;
+}
+
+table td, table th {
+  padding: .3rem 1rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #292929;
+}
+
+table tr:hover {
+  color: #8fd;
+  background: #313131;
+}
+
+table td:hover {
+  color: #aff;
+}

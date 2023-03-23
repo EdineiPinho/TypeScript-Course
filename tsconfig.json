@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "sourceMap": true,
+    "allowJs": true,
+    "removeComments": true,
     "strict": true,
-    "strictNullChecks": true
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "isolatedModules": true
   },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
